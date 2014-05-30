@@ -10,8 +10,8 @@
   <!-- Kernel-->
   
   <project path="kernel/sony/nanhu" name="UltraGamerHD/android_kernel_sony_msm7x27a" remote="github" revision="cm-11.0" />
-  <project path="kernel/sony/external/compat-wireless" name="android_external_compat-wireless" remote="mk" revision="sony" />
-  <project path="kernel/backports" name="android_kernel_backports" remote="mk" revision="nanhu/cm-11.0" />
+  <project path="kernel/sony/external/compat-wireless" name="UltraGamerHD/android_external_compat-wireless" remote="github" revision="sony" />
+  <project path="kernel/backports" name="UltraGamerHD/android_kernel_backports" remote="github" revision="nanhu/cm-11.0" />
   
   <!--Device Repo's-->
   
