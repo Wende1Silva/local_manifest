@@ -33,7 +33,7 @@
   <!--legaCYMod Repos-->
   
    <!-- CM replacements, repos from LegacyMod -->
-   <remove-project name="CyanogenMod/android_frameworks_av" />
+   <remove-project name="AOSPA-legacy/android_frameworks_av" />
    <project path="frameworks/av" name="legaCyMod/android_frameworks_av" remote="github" revision="cm-11.0" />
 
   
