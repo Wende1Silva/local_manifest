@@ -16,7 +16,7 @@
   <!--Device Repo's-->
   
   <project path="device/qcom/common" name="android_device_qcom_common" remote="mk" revision="codeaurora-cm" />
-  <project path="device/sony/tamsui-common" name="android_device_sony_tamsui-common" remote="tamsuicm11" revision="cm-11.0" />
+  <project path="device/sony/tamsui-common" name="UltraGamerHDandroid_device_sony_tamsui-common" remote="github" revision="cm-11.0" />
   <project path="device/sony/nanhu" name="UltraGamerHD/android_device_sony_nanhu_ds" remote="github" revision="nanhu_ss/cm-11.0" />
   
   <!--Drivers-->
