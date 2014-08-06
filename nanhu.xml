@@ -17,7 +17,7 @@
   
   <project path="device/qcom/common" name="android_device_qcom_common" remote="mk" revision="codeaurora-cm" />
   <project path="device/sony/tamsui-common" name="UltraGamerHD/android_device_sony_tamsui-common" remote="gh" revision="cm-11.0-EXP" />
-  <project path="device/sony/nanhu" name="UltraGamerHD/android_device_sony_nanhu_ds" remote="gh" revision="nanhu_ss/carbon" />
+  <project path="device/sony/nanhu" name="UltraGamerHD/android_device_sony_nanhu" remote="gh" revision="carbonkk" />
   
   <!--Drivers-->
   
