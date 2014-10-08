@@ -9,26 +9,26 @@
    
   <!-- Kernel-->
   
-  <project path="kernel/sony/nanhu" name="UltraGamerHD/android_kernel_sony_msm7x27a" remote="github" revision="cm-11.0" />
-  <project path="kernel/sony/external/compat-wireless" name="UltraGamerHD/android_external_compat-wireless" remote="github" revision="sony" />
-  <project path="kernel/backports" name="UltraGamerHD/android_kernel_backports" remote="github" revision="nanhu/cm-11.0" />
+  <project path="kernel/sony/nanhu" name="TeamXE/android_kernel_sony_msm7x27a" remote="github" revision="cm-11.0" />
+  <project path="kernel/sony/external/compat-wireless" name="TeamXE/android_external_compat-wireless" remote="github" revision="sony" />
+  <project path="kernel/backports" name="TeamXE/android_kernel_backports" remote="github" revision="nanhu/cm-11.0" />
   
   <!--Device Repo's-->
   
   <project path="device/qcom/common" name="android_device_qcom_common" remote="mk" revision="codeaurora-cm" />
-  <project path="device/sony/tamsui-common" name="UltraGamerHD/android_device_sony_tamsui-common" remote="github" revision="cm-11.0" />
-  <project path="device/sony/nanhu" name="UltraGamerHD/android_device_sony_nanhu" remote="github" revision="cm11" />
+  <project path="device/sony/tamsui-common" name="TeamXE/android_device_sony_tamsui-common" remote="github" revision="cm-11.0" />
+  <project path="device/sony/nanhu" name="TeamXE/android_device_sony_nanhu" remote="github" revision="cm11" />
   
   <!--Drivers-->
   
-  <project path="hardware/qcom/display-legacy" name="UltraGamerHD/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0-experimental" />
+  <project path="hardware/qcom/display-legacy" name="TeamXE/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0-experimental" />
   <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="tamsuicm11" revision="cm-11.0" />
   <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="tamsuicm11" revision="cm-11.0" />
   <project path="hardware/atheros/wlan" name="legaCyMod/android_hardware_atheros_wlan" remote="github" revision="cm-11.0" />
   
   <!--Proprietary Files-->
   
-  <project path="vendor/sony/nanhu" name="UltraGamerHD/proprietary_vendor_sony_nanhu" remote="github" revision="cm-11.0" />
+  <project path="vendor/sony/nanhu" name="TeamXE/proprietary_vendor_sony_nanhu" remote="github" revision="cm-11.0" />
   
   <!--legaCYMod Repos-->
   
