@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <manifest>
   
+  <remote fetch="git://codeaurora.org/" name="codeaurora" review="codeaurora.org"/>
+  
   <!-- Device Repo -->
   <project name="der-koenig/android_device_qcom_common" path="device/qcom/common" revision="1d5d38e02491082815071061e69cbf764af87c64" upstream="codeaurora-cm"/>
   <project name="der-koenig/android_device_sony_nanhu_ds" path="device/sony/nanhu" revision="810d0dd7fc0fc8d74c83c6e58d8aed9c284a03ca" upstream="cm10-nanhu"/>
