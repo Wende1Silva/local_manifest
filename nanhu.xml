@@ -30,6 +30,11 @@
   
   <project path="vendor/sony/nanhu" name="TeamXE/proprietary_vendor_sony_nanhu" remote="github" revision="cm-11.0" />
   
+  <!-- Recovery -->
+  
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <project path="bootable/recovery" name="PhilZ-cwm6/philz_touch_cwm6" remote="github" revision="cm-11.0" />
+  
   <!--legaCYMod Repos-->
   
    <!-- CM replacements, repos from LegacyMod -->
