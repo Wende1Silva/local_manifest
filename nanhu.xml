@@ -13,32 +13,55 @@
   
   <project name="der-koenig/android_external_compat-wireless" path="kernel/sony/external/compat-wireless" revision="c370e44270a8cbcf9c381fce70b17aef395e6849" upstream="sony"/>
   <project name="der-koenig/android_external_kernel-headers" path="external/kernel-headers" revision="0d4823d0f21c4e09c5e648da3f9d26e228645407" upstream="cm10-nanhu"/>
+  <remove-project name="CyanogenMod/android_external_kernel-headers" />
   <project name="der-koenig/android_kernel_sony_msm7x27a" path="kernel/sony/nanhu" revision="4617a5c1929700788a8d4c9e3b75c5579a403312" upstream="sony-3.4-nanhu"/>
   <project name="der-koenig/android_kernel_sony_msm7x27a.git" path="kernel/sony/nanhu_ds" revision="05d5e41ae8bf8c7ac2980eccb7e09b54ab067b78" upstream="sony-3.4-nanhu_ds"/>
   
   <!-- Misc -->
   
   <project name="der-koenig/android_external_qemu" path="external/qemu" revision="99c106a6a12c3629c38faba71ec8761f17f3b5a8" upstream="codeaurora-mk"/>
+  <remove-project name="CyanogenMod/android_external_qemu" />
   <project name="der-koenig/android_frameworks_base" path="frameworks/base" revision="47ab6f91dc72ce2604c66015745c30ded93aafd3" upstream="cm10-nanhu"/>
+  <remove-project name="CyanogenMod/android_frameworks_base" />
   <project name="der-koenig/android_hardware_qcom_audio" path="hardware/qcom/audio" revision="a3c49f6c086ec683c8cef903396ab5c1911fc584" upstream="cm10-nanhu"/>
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio" />
   <project name="der-koenig/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" revision="2bb06385fe2a43cc95d31ca0f16710a8e9be2301" upstream="cm10-mk"/>
-  <project name="der-koenig/android_packages_apps_Contacts" path="packages/apps/Contacts" revision="88c6dcf776716d6bc0d4628efcdce4dc181080be" upstream="cm10-ds"/>
+  <remove-project name="CyanogenMod/android_packages_apps_CMFileManager" />
+  <project name="der-koenig/android_packages_packages_apps_Contacts" path="packages/apps/Contacts" revision="88c6dcf776716d6bc0d4628efcdce4dc181080be" upstream="cm10-ds"/>
+  <remove-project name="CyanogenMod/android_packages_apps_Contacts" />
   <project name="der-koenig/android_packages_apps_Mms" path="packages/apps/Mms" revision="5f1fab787932966d5e53e8ee429bcf85e04d302c" upstream="codeaurora-mk"/>
+  <remove-project name="CyanogenMod/android_packages_apps_Mms" />
   <project name="der-koenig/android_packages_apps_OTAUpdateCenter" path="packages/apps/OTAUpdateCenter" revision="fb99be8a569aa9730586564c6c3ee81d64ada4e0" upstream="cm10-mk"/>
+  <remove-project name="CyanogenMod/android_packages_apps_OTAUpdateCenter" />
   <project name="der-koenig/android_packages_apps_Phone" path="packages/apps/Phone" revision="e00407d58949b727a05f733d58d9c13cd9362034" upstream="codeaurora-mk"/>
+  <remove-project name="CyanogenMod/android_packages_apps_Phone" />
   <project name="der-koenig/android_packages_apps_Provision" path="packages/apps/Provision" revision="166622ecfb9c67b0b1f644eb2b2a2d54f980e7c8" upstream="cm10-mk"/>
+  <remove-project name="CyanogenMod/android_packages_apps_Provision" />
   <project name="der-koenig/android_packages_apps_QuickSearchBox" path="packages/apps/QuickSearchBox" revision="dc65d570866dd6916a07e3c05498c84c657d3a6e" upstream="cm10-mk"/>
+  <remove-project name="CyanogenMod/android_packages_apps_QuickSearchBox" />
   <project name="der-koenig/android_packages_apps_Settings" path="packages/apps/Settings" revision="80901c3b215f64c7b2191fc22295dfdaa6d6bc08" upstream="cm10-ds"/>
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <project name="der-koenig/android_packages_apps_Superuser" path="packages/apps/Superuser" revision="bce3a94445b43e108981e533924890842e8d2e66" upstream="cm10-mk"/>
+  <remove-project name="CyanogenMod/android_packages_apps_Superuser" />
   <project name="der-koenig/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" revision="8d6dc2f7730927da9763b50c0c71f110933560e0" upstream="cm10-ds"/>
+  <remove-project name="CyanogenMod/android_packages_providers_ContactsProvider" />
   <project name="der-koenig/android_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" revision="26f42ff9b4ca2bddc606323eae46194153a77367" upstream="cm10-ds"/>
+  <remove-project name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <project name="der-koenig/android_system_core" path="system/core" revision="4e46ad0927c37822f27ae77b1d6979a427171839" upstream="cm10-mk"/>
+  <remove-project name="CyanogenMod/android_system_core" />
   <project name="der-koenig/android_system_su" path="system/su" revision="5f72a94f78e0a491c14144a392575d2daeb42e18" upstream="cm10-mk"/>
+  <remove-project name="CyanogenMod/android_system_su" />
   <project name="der-koenig/android_vendor_cm" path="vendor/cm" revision="75e653e9aef6fd64975050d7460d3a36bbeee1a4" upstream="cm10-mk"/>
+  <remove-project name="CyanogenMod/android_vendor_cm" />
   <project name="der-koenig/android_vendor_koush" path="vendor/koush" revision="99ec13ccb17b4e9167bcfc48be2aea4ad5b4abfa" upstream="cm10-mk"/>
+  <remove-project name="CyanogenMod/android_vendor_koush" />
   <project name="platform/hardware/ril" path="hardware/ril" remote="codeaurora" revision="5d496e6082d0ebb07f96897dc9b06a1f3c7fd6cd"/>
+  <remove-project name="CyanogenMod/android_hardware_ril" />
   <project name="platform/packages/apps/FM" path="packages/apps/FM" remote="codeaurora" revision="2fe5d1f42e9b014063ab33cf271761e150b9ad0b"/>
+  <remove-project name="CyanogenMod/android_packages_apps_FM" />
   <project name="platform/packages/apps/Stk" path="packages/apps/Stk" remote="codeaurora" revision="1dea50704aacca59a8b79cf0ed6c6f1399f33903"/>
+  <remove-project name="CyanogenMod/android_packages_apps_Stk" />
   <project name="der-koenig/android_development" path="development" revision="b82b94c0efc11ad17dccc5e5f8d5da91567efac4" upstream="cm10-ds"/>
+  <remove-project name="CyanogenMod/android_development" />
   
   <manifest>
