@@ -41,7 +41,7 @@
   
   <!--Proprietary Files-->
   
-  <project path="vendor/sony/nanhu" name="TeamXE/proprietary_vendor_sony_nanhu" remote="github" revision="nanhu_cm11_bt" />
+  <project path="vendor/sony/nanhu" name="UltraGamerHD/proprietary_vendor_sony_nanhu" remote="github" revision="nanhu_cm11_bt" />
   
   <!--legaCYMod Repos-->
   
