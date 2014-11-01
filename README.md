@@ -1,21 +1,11 @@
-local_manifest to build CM11 for Nanhu
-======================================
+Local Manifest to Build CM11 For Xperia E (nanhu)
 
-Manifest File - All Repos Needed to Build CM11 For Nanhu.
+Please use nanhu_bt.xml if you wan't to compile with working bluetooth as the original nanhu.xml doesn't include bluetooth-modified repo's. 
 
-======================================
+=========================================
 
-In The repo of TeamXE
+If you get an error while compiling related to OMXCodec.cpp about 'nBitsPerSample', delete the line mentioned in the error. It will probably be something along the line of:
 
-Compiling CM11 For Xperia E without Bluetooth, use nanhu.xml as normal.
+param.nBitsPerSample = bitsPerSample;
 
-======================================
-
-Compiling CM11 For Xperia E with Bluetooth, use nanhu_bt.xml 
-and apply the following commits to android_bionic:
-
-https://code.google.com/p/aosp-bluez/source/detail?r=bb1eb0c7cf42783e96020013615b00d70579123f&repo=platform-bionic
-
-and
-
-https://code.google.com/p/aosp-bluez/source/detail?r=7a98e7997d6849083347746d0d9727d8439ef4c4&repo=platform-bionic
+==========================================
