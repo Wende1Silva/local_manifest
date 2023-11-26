@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <remote  name="mk"
-    fetch="https://github.com/der-koenig" />
-	
- <remote  name="tamsuicm11"
-    fetch="https://github.com/TamsuiCM11" />
    
   <!-- Kernel-->
   
